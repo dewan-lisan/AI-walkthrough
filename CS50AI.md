@@ -1,4 +1,6 @@
 ## Search Problems
+Graph Search Algorithms (e.g., BFS, DFS) 
+Useful in robotics, pathfinding (games), recommender systems etc.
 Example: maze path, google map paths, solve a word puzzle tile
 
 Initial State: Initial state, or the current state of a puzzle
