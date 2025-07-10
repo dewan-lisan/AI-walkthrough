@@ -40,7 +40,23 @@ Truth Tables: Used to define the behavior of connectives by showing all possible
 
 ### Knowledge Base (KB)
 A set of sentences the AI knows to be true.
+Example: <br>
+_If it didn't rain, Harry visited Hagrid today.<br>
+Harry visited Hagrid or Dumbledore today, but not both.<br>
+Harry visited Dumbledore today._
 
 ### Inference
 The process of deriving new sentences from existing ones in the knowledge base.
-KB provides this infor: Harry will go for a run if it’s Tuesday and not raining. Inference part of this: it’s Tuesday and not raining, "so Harry will run"
+P: It is a Tuesday.
+Q: It is raining.
+R: Harry will go for a run.
+
+**KB:** <br>
+(P ∧ ¬Q) → R <br>
+P <br>
+¬Q <br>
+Inference part of this: it’s Tuesday and not raining, so Harry will run (R)
+
+![image](https://github.com/user-attachments/assets/d5484488-ff6d-4a38-9626-c7f3f38a8440)
+
+
