@@ -57,6 +57,10 @@ P <br>
 ¬Q <br>
 Inference part of this: it’s Tuesday and not raining, so Harry will run (R)
 
+### Model Checking
+It enumerates all the possible models, and look in those possible models.
+
+**Query: **Will Harry go for a run?
 ![model_checking](assets/Model%20Checking.png)
 
 
