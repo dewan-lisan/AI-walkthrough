@@ -57,6 +57,6 @@ P <br>
 ¬Q <br>
 Inference part of this: it’s Tuesday and not raining, so Harry will run (R)
 
-![image](https://github.com/user-attachments/assets/d5484488-ff6d-4a38-9626-c7f3f38a8440)
+![image]([https://github.com/dewan-lisan/AI-walkthrough/blob/main/assets/Model%20Checking.png])
 
 
