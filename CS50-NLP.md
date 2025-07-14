@@ -54,10 +54,10 @@ Train on labeled data (e.g. positive or negative reviews).
 - Allows model to focus on relevant input words when generating output (e.g., focus on "capital" and "Massachusetts" for "Boston").
 - Computes attention scores to weigh importance of input words.
 - Example: In translation, French "agreement" attends to English "agreement."
+  
+**Issue:** Hidden state struggles to capture long sequences; sequential processing limits parallelization.  
 
-![RNN Encoder Decoder and hidden state](assets/RNN_encoder_decoder.png)
-
-**Issue:** Hidden state struggles to capture long sequences; sequential processing limits parallelization.
+<img src="assets/RNN_encoder_decoder.png" width="550" height="780"> 
 
 ## Transformer Architecture
 Replaces RNNs for parallel processing.
