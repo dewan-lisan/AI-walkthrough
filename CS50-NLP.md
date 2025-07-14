@@ -55,6 +55,8 @@ Train on labeled data (e.g. positive or negative reviews).
 - Computes attention scores to weigh importance of input words.
 - Example: In translation, French "agreement" attends to English "agreement."
 
+![RNN Encoder Decoder and hidden state](assets/RNN_encoder_decoder.png)
+
 **Issue:** Hidden state struggles to capture long sequences; sequential processing limits parallelization.
 
 ## Transformer Architecture
