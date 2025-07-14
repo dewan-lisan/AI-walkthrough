@@ -39,4 +39,8 @@ All the examples above are feed forward neural network where everything needs to
 ## Recurrent Neural Network (RNNs):
 RNNs take input within the network, it loops back within the network. RNNs handle sequential data by feeding output back as input, maintaining state across iterations.
 
+### Real-life Applications:
+Image capturing (e.g., Microsoft CaptionBot generates text descriptions from images)  
+Machine translation (e.g., Google Translate converts text sequences between languages)
+
 **N.B.** In machine learning, both regression and classification are supervised learning techniques used for different prediction tasks. Regression predicts continuous numerical values, while classification predicts categorical labels. Essentially, regression deals with "how much" or "how many", while classification deals with "what kind" or "which category". 
