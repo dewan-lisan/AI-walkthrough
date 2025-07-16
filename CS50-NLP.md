@@ -69,6 +69,9 @@ It also add addtional component before Neural Network called "Self-Attention". O
 
 <img src="assets/TransformerArchOverall.png"> 
 
+<img src="assets/TransformerEncoderDecoder.png"> 
+
+
 ## NLTK Tool
 NLTK (Natural Language Toolkit) is not commonly used in modern large language models (LLMs) like those powering ChatGPT, Llama, or Grok 3. NLTK is a Python library designed for teaching and research, offering tools for tasks like tokenization, parsing, and n-grams. It excels in rule-based and statistical NLP but lacks the scalability and efficiency needed for training or deploying large-scale LLMs.  
 
