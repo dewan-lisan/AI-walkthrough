@@ -65,6 +65,8 @@ But how about tracking? In RNNs, states are tracked automatically unlike transfo
 To solve this, transformer arch adds a "positional encoding" together with the "input word".
 It also add addtional component before Neural Network called "Self-Attention". One or multiple "self-attention" provides context from other input words. And Self-Attention together with Neural Network could be repeated multiple times too.
 
+<img src="assets/TransformerArchitecture.png"> 
+
 ## NLTK Tool
 NLTK (Natural Language Toolkit) is not commonly used in modern large language models (LLMs) like those powering ChatGPT, Llama, or Grok 3. NLTK is a Python library designed for teaching and research, offering tools for tasks like tokenization, parsing, and n-grams. It excels in rule-based and statistical NLP but lacks the scalability and efficiency needed for training or deploying large-scale LLMs.  
 
