@@ -60,7 +60,10 @@ Train on labeled data (e.g. positive or negative reviews).
 <img src="assets/RNN_encoder_decoder.png" width="550" height="780"> 
 
 ## Transformer Architecture
-Replaces RNNs for parallel processing. Each "input word" is passed through "Neural Network" and it outputs "encoded representation" of the word independently.
+Replaces RNNs for parallel processing.   
+
+**Encoder:**  
+Each "input word" is passed through "Neural Network" and it outputs "encoded representation" of the word independently.
 But how about tracking? In RNNs, states are tracked automatically unlike transformer architecture.
 To solve this, transformer arch adds a "positional encoding" together with the "input word".
 It also add addtional component before Neural Network called "Self-Attention". One or multiple "self-attention" provides context from other input words. And Self-Attention together with Neural Network could be repeated multiple times too.
@@ -69,7 +72,13 @@ It also add addtional component before Neural Network called "Self-Attention". O
 
 <img src="assets/TransformerArchOverall.png"> 
 
+**Decoder:**  
+Generates output words, attending to previous output and encoded input.  
+
 <img src="assets/TransformerEncoderDecoder.png"> 
+
+**Advantages:**  
+Parallelizable, scalable for large datasets, effective for tasks like translation and chatbots.
 
 
 ## NLTK Tool
