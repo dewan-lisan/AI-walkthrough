@@ -60,7 +60,10 @@ Train on labeled data (e.g. positive or negative reviews).
 <img src="assets/RNN_encoder_decoder.png" width="550" height="780"> 
 
 ## Transformer Architecture
-Replaces RNNs for parallel processing.
+Replaces RNNs for parallel processing. Each "input word" is passed through "Neural Network" and it outputs "encoded representation" of the word independently.
+But how about tracking? In RNNs, states are tracked automatically unlike transformer architecture.
+To solve this, transformer arch adds a "positional encoding" together with the "input word".
+It also add addtional component before Neural Network called "Self-Attention". One or multiple "self-attention" provides context from other input words. And Self-Attention together with Neural Network could be repeated multiple times too.
 
 ## NLTK Tool
 NLTK (Natural Language Toolkit) is not commonly used in modern large language models (LLMs) like those powering ChatGPT, Llama, or Grok 3. NLTK is a Python library designed for teaching and research, offering tools for tasks like tokenization, parsing, and n-grams. It excels in rule-based and statistical NLP but lacks the scalability and efficiency needed for training or deploying large-scale LLMs.  
