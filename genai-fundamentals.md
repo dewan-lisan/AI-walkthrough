@@ -112,3 +112,26 @@ Output for the next token might be: "book": 0.2, "pen": 0.05, "student": 0.7, ..
 → Most likely next token = "student"
 
 
+## Generative Configuration
+
+Training parameters are learned during model training. Inference parameters are used at runtime to control how the model generates output.
+
+### Key Inference Parameters
+#### Max New Tokens
+Sets a limit on the maximum number of tokens the model can generate. It’s a cap, not a guarantee — generation might stop earlier if the model outputs an end-of-sequence token.
+
+#### Decoding Strategies
+- **Greedy Decoding:** Picks the most probable word every time, cases repeating word in the output.
+- **Random Sampling:** Picks the next word at random, but may produce nonsensical output if too random.
+
+#### Samping Controls
+- Top-k Sampling: Selects top k most likely tokens. Example: k = 3 -> choose from 3 highest-probability words.
+- Top-p Sampling: Selects from the smallest set of tokens whose cumulative probability ≤ p. Example: p = 0.3 → use the most probable tokens that together make up 30% probability mass.
+
+#### Temperature
+Its a **Softmax output** settings, controls randomness by scaling the probability distribution.
+- Higher temp -> more creative
+- Lower temp -> more focused.
+- Default softmax behavior = 1
+
+
