@@ -24,6 +24,37 @@ Interaction with LLMs uses natural language prompts (text instructions) rather t
 - **Completion:** The model’s output, including the prompt and generated text (e.g., “Ganymede is a moon of Jupiter…”).
 - **Inference:** The process of generating text from a prompt.
 
+### Types of Inrefence
+#### Zero-Shot Inference
+No examples are provided, just the task and input. Works well with large models e.g. GPT-3.5, GPT-4
+
+**Example:**  
+- **Prompt:** “Classify the sentiment of this review: I really loved this movie!”  
+- **Completion:** “Positive”
+
+#### One-Shot Inference
+One example is included in the prompt to guide the model. It helps smaller models to understand what to do.
+
+**Example:**  
+“Classify the sentiment:  
+Review: I loved this movie → Sentiment: Positive  
+Review: [your input] → Sentiment: [??]”
+
+#### Few-Shot Inference
+Multiple examples are provided. Increases the model's ability to generalize and understand varied cases.
+
+**Example:**  
+Include both positive and negative review examples to help the model learn both classes.
+
+### Conext Window Limit
+You can only include a limited number of examples based on model capacity.
+- GPT-4o (OpenAI): Up to 128,000 tokens.
+- Claude 3.5 Sonnet (Anthropic): Up to 200,000 tokens.
+- Llama 3.1 (Meta AI): Up to 128,000 tokens.
+- Gemini 1.5 Pro (Google): Up to 2 million tokens.
+
+Biggest token size doesn't necessarily mean the biggest model. It also depends on parameter count, architecture, training data etc.
+
 ## Transformer Architecture Building Blocks
 
 ### Encoder and Decoder
