@@ -65,5 +65,3 @@ ROUGE used for summarization whereas BLEU is used for translation tasks. F1 scor
 
 ## Model Benchmarking
 Simple metrics like ROUGE and BLEU are useful for basic tasks like summarization and translation but aren't sufficient to evaluate the full capabilities of large language models (LLMs). To assess LLMs more holistically, researchers use benchmarks like **GLUE** and **SuperGLUE** for general language understanding, **MMLU** for advanced reasoning and domain knowledge, and **BIG-bench** for a wide range of tasks. The **HELM** benchmark goes further by evaluating models across multiple dimensions, including fairness, bias, and toxicity. Choosing the right benchmark and ensuring the model hasn't seen the test data is critical for meaningful evaluation.
-
-
