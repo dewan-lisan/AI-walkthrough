@@ -61,6 +61,6 @@ It enumerates all the possible models, and look in those possible models.
 
 **Query:** Will Harry go for a run?
 
-![model_checking](assets/Model%20Checking.png)
+![model_checking](../assets/Model%20Checking.png)
 
 

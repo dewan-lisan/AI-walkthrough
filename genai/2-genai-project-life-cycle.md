@@ -1,6 +1,6 @@
 # Generative AI Project Life Cycle
 
-<img src="assets/GenAILifeCycle.png" width="550" height="780"> 
+<img src="../assets/GenAILifeCycle.png" width="550" height="780"> 
 
 ### Use Case Scope:
 Define clear and narrow scope.  

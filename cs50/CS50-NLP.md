@@ -57,7 +57,7 @@ Train on labeled data (e.g. positive or negative reviews).
   
 **Issue:** Hidden state struggles to capture long sequences; sequential processing limits parallelization.  
 
-<img src="assets/RNN_encoder_decoder.png" width="550" height="780"> 
+<img src="../assets/RNN_encoder_decoder.png" width="550" height="780"> 
 
 ## Transformer Architecture
 Replaces RNNs for parallel processing.   
@@ -68,14 +68,14 @@ But how about tracking? In RNNs, states are tracked automatically unlike transfo
 To solve this, transformer arch adds a "positional encoding" together with the "input word".
 It also add addtional component before Neural Network called "Self-Attention". One or multiple "self-attention" provides context from other input words. And Self-Attention together with Neural Network could be repeated multiple times too.
 
-<img src="assets/TransformerArchitecture.png"> 
+<img src="../assets/TransformerArchitecture.png"> 
 
-<img src="assets/TransformerArchOverall.png"> 
+<img src="../assets/TransformerArchOverall.png"> 
 
 **Decoder:**  
 Generates output words, attending to previous output and encoded input.  
 
-<img src="assets/TransformerEncoderDecoder.png"> 
+<img src="../assets/TransformerEncoderDecoder.png"> 
 
 **Advantages:**  
 Parallelizable, scalable for large datasets, effective for tasks like translation and chatbots.

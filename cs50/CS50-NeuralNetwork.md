@@ -3,7 +3,7 @@
 ## Basics
 A simple neural network consists of input units, weighted connections, and an output unit. Each unit computes a weighted sum of inputs, adds a bias, and applies an activation function (e.g., step, sigmoid, Rectified linear unit - ReLU) to determine the output.
 
-![Simple_neural_network](assets/SimpleNeuralNet.png)
+![Simple_neural_network](../assets/SimpleNeuralNet.png)
 
 ### Training Basic Neural Network
 **Gradient Descent:** Used to minimize loss by iteratively adjusting weights. It calculates the gradient (direction to reduce loss) based on all data points, updates weights, and repeats. Computationally expensive due to processing all data points.
