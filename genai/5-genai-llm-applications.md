@@ -13,9 +13,16 @@ For example:
 ### Financial Service Industry Use Cases
 Regulatory compliance data analysis and automating reporting processes
 
-### Difference between GenAI and AI Agent
-| Feature               | Generative AI                                 | AI Agent                                        |
-|------------------------|-----------------------------------------------|-------------------------------------------------|
-| Primary Functionality  | Generates new content (text, images, etc.)    | Autonomous decision making and action execution |  
-| Dependency on Prompts | Requires specific prompts to generate content | Operates independently once goals are defined   |
-| Risk Factors         | May produce biased or incorrect content        | Can make decisions that may lead to unintended consequences |
+## Key Difference Between GenAI, RAG and AI Agent
+| Feature            | Generative AI                                 | RAG Application                                                 | AI Agent                                                             |
+|--------------------|-----------------------------------------------|-----------------------------------------------------------------|----------------------------------------------------------------------|
+| Core Functionality | Generates new content (text, images, etc.)    | Retrieval and generation of relevant content                    | Autonomous decision making and action execution                      |  
+| Architecture       | Prompt -> LLM -> Output                       | Prompt -> Retriever -> Context -> LLM -> Output                 | ???                                                                  |  
+| Decision-Making    | Requires specific prompts to generate content | Relies on retrieved data to generate responses                  | Makes independent decisions and takes actions once goals are defined |
+| Risk Factors       | May produce biased or incorrect content       | May retrieve irrelevant or outdated content                     | Can make decisions that may lead to unintended consequences          |
+| Scalability        | ???                                           | Dependent on external data access and retrieval speed           | Scalable across multiple autonomous agents working in parallel       |
+| Adaptability       | ???                                           | Adaptable based on available external data                      | Continuously learns and refines strategies over time                 |
+| Use Cases          | Content creation, summarization, translation  | Answer questions based on company docs (e.g., customer support) | Book travel, automate data pipelines, research assistant             |
+
+
+
